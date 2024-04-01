@@ -1,0 +1,138 @@
+.App {
+
+  /* border: 0.3rem solid white; */
+  border-radius: 00.6rem;
+  display: flex;
+  align-items: center;
+  /* margin: 20px; */
+  /* padding: 20px; */
+  justify-content: center;
+  overflow: auto;
+  min-height: 50vh;
+  /* min-width: 50vw; */
+  color: #61dafb;
+
+}
+
+#contaner {
+  padding: 100px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.gameover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.number-contaner {
+
+  padding-top: 60px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+
+
+span {
+  padding: 20px;
+  margin: 10px;
+  border: 3px solid rgb(80, 159, 80);
+  border-radius: 0.4rem;
+}
+
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#size-input {
+  margin: 10px;
+  width: 50px;
+  height: 20px;
+}
+
+input {
+  width: 30px;
+  height: 30px;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  /* border-bottom: 0.17rem solid black;   */
+  outline: none;
+  color: #61dafb;
+  background-color: #282c34;
+  
+}
+
+.input-box {
+
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  width: 600px;
+
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.timer {
+
+  display: grid;
+  text-align: center;
+  /* width: auto; */
+  width: 106px;
+
+
+}
+
+.timer>p {
+  margin: 0;
+  font-size: 50px;
+}
+
+
+button {
+
+  height: 40px;
+  width: 90px;
+  border-radius: 0.5rem;
+  font-size: large;
+  
+
+}
+
+
+
+.score {
+  display: grid;
+  text-align: center;
+  width: 106px;
+}
+
+.score>p {
+  margin: 0;
+  font-size: 50px;
+}
+
